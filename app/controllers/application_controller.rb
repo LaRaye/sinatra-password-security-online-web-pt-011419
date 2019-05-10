@@ -31,7 +31,7 @@ class ApplicationController < Sinatra::Base
 	end
 
 	post "/login" do
-		user = User.new(:username => params[:username], :password => params[:password])!
+		
 	end
 
 	get "/success" do
